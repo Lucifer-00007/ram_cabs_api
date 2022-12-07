@@ -3,7 +3,6 @@
 # .env file
 .env
 
-/uploads
 # dependencies
 /node_modules
 /.pnp
@@ -60,3 +59,5 @@ yarn-error.log*
 
 # Image uploaded
 upload/*
+
+!upload/test.txt 
